@@ -1,0 +1,134 @@
+body, h1, h2, h3, h4,
+h5, p, figure, picture {
+  margin: 0;
+}
+
+html {
+  background-color: #222629;
+  padding: 20px 20px 20px 20px;
+}
+
+header {
+  font-family: "Exo 2", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+header > h1 {
+  color: #474B4F;
+  font-size: 4rem;
+  text-shadow: 10px 0 10px #61892F, 0 1px 1px #86C232, -1px 0 1px #86C232, 0 -1px 1px #86C232;
+}
+
+canvas {
+  background-color: #6B6E70;
+  width: calc(50vw - 60px);
+  height: 50vh;
+}
+
+.formulaGroup {
+  display: grid;
+  margin: 30px 10px 10px 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.inputFunction {
+  box-shadow: 10px 0 20px #61892F, 0 1px 2px #86C232, -10px 0 20px #86C232, 0 -1px 1px #86C232;
+  font-family: "Exo 2", sans-serif;
+  font-size: 2rem;
+  background-color: #222629;
+  color: #61892F;
+  grid-area: input;
+  margin-right: 20px;
+  width: calc(50vw - 100px);
+  margin: 20px 20px 20px 20px;
+}
+
+.labelForFormula {
+  font-family: "Exo 2", sans-serif;
+  font-size: 2rem;
+  color: #86C232;
+  align-self: center;
+  grid-area: label;
+  text-align: center;
+}
+
+.myBtn {
+  border: 1px solid #86C232;
+  color: #86C232;
+  padding: 10px 25px;
+  font-family: "Exo 2", sans-serif;
+  background-color: #474B4F;
+  outline: none;
+  font-size: 1.5rem;
+  grid-area: button;
+  width: calc(50vw - 100px);
+  margin: 0px 20px 20px 20px;
+}
+
+.instr {
+  margin: 20px 20px 20px 20px;
+}
+
+.instr > h1 {
+  color: #474B4F;
+  font-size: 3rem;
+  text-shadow: 1px 0 1px #61892F, 0 1px 1px #86C232, -1px 0 1px #86C232, 0 -1px 1px #86C232;
+  font-family: "Exo 2", sans-serif;
+}
+
+.instr > p {
+  color: #61892F;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.5em;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inputRange {
+  width: calc(25vw - 100px);
+}
+
+table {
+  width: calc(50vw - 100px);
+  color: #61892F;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.5em;
+  border: 2px solid #86C232;
+  margin: 20px 20px 20px 20px;
+}
+
+@media screen and (max-width: 1500px) {
+  .myBtn {
+    margin-top: 20px;
+    width: calc(100vw - 100px);
+  }
+  .labelForFormula {
+    font-size: 1.5rem;
+  }
+  .inputFunction {
+    font-size: 1.5rem;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  canvas {
+    background-color: #6B6E70;
+    width: calc(100vw - 60px);
+    height: 50vh;
+  }
+  .inputFunction {
+    width: calc(100vw - 100px);
+  }
+  .inputRange {
+    width: calc(50vw - 83px);
+  }
+  table {
+    width: calc(100vw - 83px);
+  }
+}/*# sourceMappingURL=style.css.map */
